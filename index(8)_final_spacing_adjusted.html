@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+
+<html lang="ko">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Jiin Lee Portfolio — Phi-style Draft</title>
+<meta content="Jiin Lee portfolio site." name="description"/>
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="topbar">
+<a class="wordmark" href="#top">Jiin Lee</a>
+<nav>
+<a href="#readly">Works</a>
+<a href="#thesis">Thesis</a>
+<a href="#about">Profile</a>
+</nav>
+</header>
+<main id="top">
+<section class="hero">
+<h1>Portfolio</h1>
+</section>
+<section class="index-panel">
+<div>
+<span class="small-label">프로젝트</span>
+</div>
+<ol style="--rows: 3;">
+<li><a href="#readly">Z세대를 위한 뉴스 읽기 서비스</a></li>
+<li><a href="#todo">To-do mate</a></li>
+<li><a href="#heal">Hear. Breathe. Heal.</a></li>
+<li><a href="#tea">A Cup of Pause Tea</a></li>
+<li><a href="#louis">louis poulsen</a></li>
+<li><a href="#apple">WHO ATE MY APPLE?</a></li>
+</ol>
+</section>
+<section class="index-panel landing-jump-panel">
+<div>
+<span class="small-label">논문</span>
+</div>
+<ol style="--rows: 1;">
+<li><a href="#thesis-darkpattern">마케팅 수신 동의 UI의 다크패턴 연구</a></li>
+<li><a href="#thesis-nfc">인지 욕구 기반 마케팅 수신 동의 UI 연구</a></li>
+</ol>
+</section>
+<section class="index-panel landing-jump-panel">
+<div>
+<span class="small-label">프로필</span>
+</div>
+<ol style="--rows: 1;">
+<li><a href="#about">프로필</a></li>
+<li><a href="#transcript">성적표</a></li>
+</ol>
+</section>
+<article class="case" id="readly">
+<div class="case-heading">
+<div class="case-title">
+<span class="case-no">01</span>
+<h3>Z세대를 위한 뉴스 읽기 서비스</h3>
+<p class="meta">UI/UX Research &amp; Design · 2026.05</p>
+</div>
+<p class="one-line">뉴스 원문 읽기를 어려워하는 Z세대를 위해, 기사 진입의 부담을 낮추고 원문 읽기의 지속성을 높이는 뉴스 읽기 서비스를 제안했습니다.</p>
+</div><div class="summary-grid">
+<div><b>Question</b><p>왜 사용자는 뉴스에 관심이 있어도 원문 읽기로 이어지지 못할까?</p></div>
+<div><b>Research</b><p>뉴스 서비스 사례 조사, 사용자 인터뷰, Think Aloud, 키워드 클러스터링</p></div>
+<div><b>Insight</b><p>주요 장벽은 문해력 부족이 아니라 긴 문장, 낯선 용어, 맥락 파악의 어려움, 높은 정보 밀도에서 오는 읽기 부담이었습니다.</p></div>
+<div><b>Design</b><p>관심 기반 탐색, 주요 맥락 요약, 쉬운 설명, 용어 풀이, 단계형 본문, 오디오, 참여형 리워드</p></div>
+</div>
+<section class="readly-showcase">
+<div class="readly-stage">
+<div class="readly-block">
+<div class="readly-copy">
+<span>01 / Entry</span>
+<h4>원문으로 들어가기 전, 맥락부터 가볍게 파악하는 진입 구조</h4>
+<p>홈과 검색 화면은 기사 자체보다 먼저 주제와 주요 맥락을 가볍게 파악하게 해, 원문으로 들어가기 전 느끼는 심리적 부담을 낮추도록 구성했습니다.</p>
+</div>
+<div class="readly-visuals entry-grid">
+<figure class="screen-card screen-large">
+<img alt="Readly home screen" src="assets/readly/daily-home.png"/>
+</figure>
+<div class="screen-stack">
+<figure class="screen-card"><img alt="Readly search screen" src="assets/readly/search-page.png"/></figure>
+<figure class="screen-card"><img alt="Readly daily challenge section" src="assets/readly/daily-home.png"/></figure>
+</div>
+</div>
+</div>
+<div class="readly-block">
+<div class="readly-copy">
+<span>02 / Reading support</span>
+<h4>원문 읽기를 끝까지 이어가게 하는 읽기 보조 구조</h4>
+<p>기사 화면은 3줄 요약, 쉬운 설명, 용어 풀이, 문단 구조 조정, 오디오 등 다양한 읽기 보조 방식을 실험해, 사용자가 자신의 읽기 수준과 상황에 맞게 진입할 수 있도록 설계했습니다.</p>
+</div>
+<div class="readly-visuals support-grid">
+<figure class="screen-card featured"><img alt="Level-based article screen" src="assets/readly/article-default.png"/></figure>
+<figure class="screen-card"><img alt="Audio assist mode" src="assets/readly/audio-mode.png"/></figure>
+<figure class="screen-card"><img alt="Glossary support screen" src="assets/readly/glossary.png"/></figure>
+<figure class="screen-card"><img alt="Paragraph-separated reading view" src="assets/readly/list-summary.png"/></figure>
+<figure class="screen-card"><img alt="Color flow support screen" src="assets/readly/color-flow.png"/></figure>
+<figure class="screen-card"><img alt="Image-added article view" src="assets/readly/summary-cards.png"/></figure>
+</div>
+</div>
+<div class="readly-block">
+<div class="readly-copy">
+<span>03 / Participation &amp; reward</span>
+<h4>읽기 이후의 참여를 다음 행동으로 연결하는 지속 구조</h4>
+<p>대화형 퀴즈와 포인트 리워드를 연결해 읽은 내용을 가볍게 확인하고, 다음 읽기 행동으로 다시 돌아오게 하는 반복 구조를 만들었습니다.</p>
+</div>
+<div class="readly-visuals reward-grid">
+<figure class="screen-card chat-shot"><img alt="Chat-based quiz screen" src="assets/readly/chat-quiz.png"/></figure>
+<figure class="screen-card points-shot"><img alt="Points and rewards screen" src="assets/readly/points.png"/></figure>
+</div>
+</div>
+</div>
+</section>
+<section class="detail-flow">
+<div class="detail-index"><span>1</span><b>Z세대를 위한 뉴스 읽기 서비스</b></div>
+<div class="detail-body"><section><h4>Abstract</h4><p>본 프로젝트는 뉴스 원문 읽기에 부담을 느끼는 Z세대 사용자를 위한 UI/UX 리서치 및 서비스 디자인 작업입니다. 기존 뉴스 서비스는 속보성과 탐색성에는 강하지만, 사용자가 원문을 읽고 이해하는 과정에서 겪는 부담을 충분히 완화하지 못했습니다.</p><p>따라서 이 프로젝트는 뉴스를 더 짧게 소비하게 만드는 방향이 아니라, 원문으로 들어가기 위한 심리적 장벽을 낮추고 읽기를 지속할 수 있게 돕는 방향에 초점을 두었습니다. 사용자가 기사에 진입하기 전 맥락을 파악하고, 읽는 중에는 필요한 설명을 받으며, 읽은 후에는 이해를 확인하고 다음 읽기로 이어질 수 있는 구조를 제안했습니다.</p></section><section><h4>Problem</h4><p>많은 뉴스 서비스는 기사 탐색과 빠른 업데이트에 최적화되어 있지만, 실제 원문 읽기 경험은 별도로 설계되어 있지 않습니다. 긴 문장과 촘촘한 문단, 낯선 전문용어, 배경지식 부족이 겹치면서 사용자는 기사 본문을 열기 전부터 부담을 느낍니다.</p><p>흥미로운 제목과 썸네일로 기사를 클릭하더라도, 본문에서 맥락을 빠르게 잡기 어렵고 읽는 중 막히는 지점이 반복되면 사용자는 결국 요약 콘텐츠나 짧은 클립에 머무르게 됩니다. 문제의 중요한 점은 읽기 의지의 부족이 아니라, 원문 읽기를 지속하기 어렵게 만드는 구조적 부담에 있었습니다.</p></section><section><h4>Research Journey</h4><p>리서치는 문제 정의, 사례 조사, 사용자 인터뷰, Think Aloud, 키워드 클러스터링 순으로 진행했습니다. 사례 조사에서는 주요 뉴스 서비스와 읽기 보조 기능을 비교하며 카드형 진입, 요약, 용어 풀이, 오디오, 집중 모드가 어떤 방식으로 읽기 부담을 완화하는지 검토했습니다.</p><p>사용자 인터뷰와 Think Aloud에서는 기사를 선택하는 기준, 읽기 전 기대, 읽기 중 중단 지점, 원문에 대한 정서적 거리감을 중심으로 관찰했습니다. 이후 반복적으로 언급된 표현을 묶어 ‘진입 부담’, ‘맥락 부족’, ‘용어 장벽’, ‘지속성 부족’의 네 가지 주요 문제로 정리했습니다.</p></section><section><h4>Insight</h4><p>리서치 결과, 사용자는 뉴스를 싫어한다기보다 원문을 읽기 시작하기 전에 이미 피로를 예상하고 있었습니다. 특히 “이 기사를 끝까지 이해할 수 있을까”라는 불안이 진입 장벽으로 작동했고, 읽는 중에는 모르는 용어나 끊기지 않는 문단 때문에 이탈이 발생했습니다.</p><p>따라서 해법은 콘텐츠를 단순히 축약하는 것이 아니라, 원문 읽기를 지원하는 층위별 보조 구조를 만드는 것이었습니다. 읽기 전에는 맥락을 예고하고, 읽는 중에는 이해를 돕고, 읽은 후에는 참여와 보상을 통해 다음 읽기를 이어주는 흐름이 필요했습니다.</p></section><section><h4>Design Application</h4><p>디자인은 ‘탐색–이해–지속’의 세 단계로 구성했습니다. 탐색 단계에서는 관심 기반 카테고리와 카드형 진입 방식을 통해 부담 없는 기사 발견 경험을 만들고, 기사 상세에 들어가기 전 3줄 요약으로 주요 맥락을 먼저 파악할 수 있게 했습니다.</p><p>이해 단계에서는 쉬운 설명, 용어 풀이, 문단 구조 조정, 오디오, 레벨형 읽기 보조를 배치했습니다. 이 기능들은 원문을 대체하기 위한 요약이 아니라, 원문으로 더 깊게 들어가기 위한 발판으로 설계했습니다. 이후 대화형 퀴즈와 포인트 리워드를 연결해 읽은 내용을 가볍게 확인하고 다음 읽기로 이어지도록 했습니다.</p></section><section><h4>Outcome</h4><p>최종 결과물은 뉴스 원문 읽기의 진입 장벽을 낮추고, 읽는 과정에서 필요한 이해 보조를 제공하며, 읽기 이후의 참여까지 연결하는 뉴스 읽기 서비스입니다. “쉽게 소비되는 뉴스”가 아니라 “끝까지 읽히는 뉴스 경험”을 목표로 구조를 설계했다는 점이 중요합니다.</p><p>이 프로젝트는 정보 구조와 인지적 부담, 읽기 지속성의 관계를 인터페이스 차원에서 다룬 작업입니다. 사용자가 왜 원문 읽기를 멈추는지 관찰하고, 그 지점을 서비스 흐름과 읽기 보조 기능으로 해결하려 했다는 점에서 의미가 있습니다.</p></section></div>
+</section>
+</article>
+<article class="case" id="todo">
+<div class="case-heading">
+<div class="case-title">
+<span class="case-no">02</span>
+<h3>To-do mate</h3>
+<p class="meta">UX Improvement · AI 기반 루틴 관리 서비스로의 개선 · 2026.01</p>
+</div>
+<p class="one-line">AI로 세운 계획이 실제 실행으로 이어지지 못하는 단절을 줄이기 위해, 계획 수립과 루틴 등록이 한 흐름 안에서 이어지는 개선안을 제안했습니다.</p>
+</div><div class="summary-grid">
+<div><b>Problem</b><p>AI가 도와준 계획은 왜 실제 일정과 루틴으로 이어지지 못할까?</p></div>
+<div><b>Research</b><p>기존 서비스 분석, AI 일정 관리 서비스 벤치마킹, A/B 프로토타이핑, 사용자 테스트</p></div>
+<div><b>Insight</b><p>사용자는 AI의 추천을 반기지만, 최종 선택과 조정 권한은 스스로 유지하고 싶어 했습니다.</p></div>
+<div><b>Design</b><p>AI 진입 맥락 강화, 페이지 전환형·채팅형 프로토타입 비교, 사용자 조정형 루틴 등록 흐름</p></div>
+</div>
+<section class="todo-showcase">
+<div class="todo-stage">
+<div class="todo-block">
+<div class="todo-copy">
+<span>01 / Existing flow</span>
+<h4>기존 구조에서 드러난 문제와 AI 진입 지점</h4>
+<p>기존 서비스는 직접 입력 중심으로 구성되어 있어, 계획을 실행 가능한 일정으로 옮기는 과정이 번거로웠고, AI 도움 기능도 사용 목적이 충분히 드러나지 않았습니다.</p>
+</div>
+<div class="todo-visuals todo-entry-grid">
+<figure class="screen-card"><img alt="To-do mate main feed screen" src="assets/todo/feed-overview.png"/></figure>
+<figure class="screen-card"><img alt="AI help entry modal" src="assets/todo/ai-modal.png"/></figure>
+<figure class="screen-card"><img alt="Direct task input screen" src="assets/todo/text-entry.png"/></figure>
+</div>
+</div>
+<div class="todo-block todo-ab-block">
+<div class="todo-copy">
+<span>02 / A/B concept comparison</span>
+<h4>페이지 전환형 A안과 채팅형 B안을 비교한 프로토타입</h4>
+<p>A안은 단계별 선택과 직접 설정을 중심으로, B안은 대화 흐름 안에서 추천과 조정이 이어지는 방식으로 구성해 두 흐름의 경험 차이를 비교했습니다.</p>
+</div>
+<div class="todo-visuals todo-ab-compare">
+<div class="ab-compare-duo">
+<div class="ab-group">
+<div class="ab-group-head">
+<strong>A안</strong>
+<span>페이지 전환형</span>
+</div>
+<div class="ab-group-grid-a">
+<figure class="screen-card ab-shot-card"><img alt="A안 검색 시작 화면" src="assets/todo/a-search-sheet.png"/></figure>
+<figure class="screen-card ab-shot-card"><img alt="A안 루틴 선택 화면" src="assets/todo/a-routine-options.png"/></figure>
+<figure class="screen-card ab-shot-card"><img alt="A안 루틴 상세 확인 화면" src="assets/todo/a-routine-confirm.png"/></figure>
+<figure class="screen-card ab-shot-card"><img alt="A안 요일 선택 화면" src="assets/todo/a-weekday-sheet.png"/></figure>
+<figure class="screen-card ab-shot-card"><img alt="A안 시간 선택 화면" src="assets/todo/a-time-sheet.png"/></figure>
+<figure class="screen-card ab-shot-card"><img alt="A안 알림 시간 선택 화면" src="assets/todo/a-alarm-sheet.png"/></figure>
+<figure class="screen-card ab-shot-card"><img alt="A안 최종 등록 화면" src="assets/todo/a-register-sheet.png"/></figure>
+</div>
+</div>
+<div class="ab-group">
+<div class="ab-group-head">
+<strong>B안</strong>
+<span>채팅형</span>
+</div>
+<div class="ab-group-grid-b">
+<figure class="screen-card ab-shot-card ab-shot-card-b"><img alt="B안 채팅형 루틴 설정 흐름" src="assets/todo/chat-flow.png"/></figure>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="todo-block todo-results-block">
+<div class="todo-copy">
+<span>03 / User test results</span>
+<h4>사용자 테스트에서 B안이 더 높은 평가를 받음</h4>
+<p>8명을 대상으로 비교 테스트한 결과, B안은 사용 용이성, 기능적 유용성, 정서적 친밀감, 전반적 만족도에서 모두 더 높은 평가를 받았습니다.</p>
+</div>
+<div class="todo-visuals todo-results-card">
+<div class="results-card-inner">
+<div class="results-header">
+<h5>User test results</h5>
+<p>n=8 · A안(페이지 전환형) vs B안(채팅형)</p>
+</div>
+<table class="results-table">
+<thead>
+<tr>
+<th>평가 항목</th>
+<th>A안</th>
+<th>B안</th>
+<th>차이</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>사용 용이성</td>
+<td>4.1</td>
+<td>6.2</td>
+<td class="plus">+2.1</td>
+</tr>
+<tr>
+<td>기능적 유용성</td>
+<td>4.5</td>
+<td>6.5</td>
+<td class="plus">+2.0</td>
+</tr>
+<tr>
+<td>정서적 친밀감</td>
+<td>3.2</td>
+<td>6.4</td>
+<td class="plus">+3.2</td>
+</tr>
+<tr>
+<td>전반적 만족도</td>
+<td>3.8</td>
+<td>6.3</td>
+<td class="plus">+2.5</td>
+</tr>
+</tbody>
+</table>
+<div class="results-note">
+<p><strong>Conclusion.</strong> 반복적인 선택 부담이 큰 상황에서는, 선택 단계를 줄이고 추천과 조정을 하나의 흐름 안에 통합한 채팅형 구조가 실제 실행 가능성을 높였습니다.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="todo-block">
+<div class="todo-copy">
+<span>04 / Final setup</span>
+<h4>사용자가 직접 조정하며 완성하는 루틴 설정 흐름</h4>
+<p>AI는 요일, 시간, 알림을 추천하지만 최종 선택은 사용자가 조정하도록 설계했습니다. 자동화의 편리함과 사용자의 통제감을 함께 유지하는 것이 중요합니다.</p>
+</div>
+<div class="todo-visuals todo-config-grid">
+<figure class="screen-card"><img alt="Weekday selection bottom sheet" src="assets/todo/weekday-sheet.png"/></figure>
+<figure class="screen-card"><img alt="Time selection bottom sheet" src="assets/todo/time-sheet.png"/></figure>
+<figure class="screen-card"><img alt="Alarm selection bottom sheet" src="assets/todo/alarm-sheet.png"/></figure>
+<figure class="screen-card"><img alt="Routine preview and confirmation screen" src="assets/todo/preview-sheet.png"/></figure>
+<figure class="screen-card"><img alt="Routine registration confirmation screen" src="assets/todo/register-sheet.png"/></figure>
+</div>
+</div>
+</div>
+</section>
+<section class="detail-flow">
+<div class="detail-index"><span>2</span><b>To-do mate</b></div>
+<div class="detail-body"><section><h4>Abstract</h4><p>본 프로젝트는 AI로 세운 계획이 실제 실행으로 이어지지 못하는 단절에 주목한 UX 개선안입니다. 많은 사용자가 ChatGPT와 같은 도구로 루틴과 일정을 구상하지만, 실제 일정 관리 서비스 안에서는 그 내용을 다시 입력해야 했고, 이 과정에서 실행 의지가 쉽게 약화되었습니다.</p><p>To-do mate의 기존 사용 맥락 위에 AI 추천 흐름을 통합하여, 계획을 세우는 순간 실행 가능한 루틴과 일정으로 자연스럽게 연결되도록 재구성했습니다. 중요한 점은 AI가 결정을 대신하는 것이 아니라, 사용자가 쉽게 시작하고 직접 조정할 수 있도록 돕는 구조를 만드는 것이었습니다.</p></section><section><h4>Background &amp; Problem</h4><p>기존 일정 관리 서비스는 주로 기록과 체크에 초점이 맞춰져 있어 계획 수립과 실행이 분리되어 있었습니다. 사용자는 AI로 계획을 세운 뒤 다시 앱에 입력해야 했고, 반복적인 재입력이 실제 행동으로 이어지는 흐름을 끊었습니다.</p><p>또한 To-do mate 내부의 “AI 도움받기” 기능은 존재했지만, 어떤 상황에서 어떤 도움을 받을 수 있는지 충분히 설명되지 않았습니다. 기능의 발견 가능성은 있었지만 사용 맥락과 기대 결과가 명확하지 않아, 실제 활용으로 이어지기 어려운 구조였습니다.</p></section><section><h4>Insight</h4><p>사용자 조사와 비교 실험을 통해, 사용자는 AI가 일정을 대신 결정해주기보다 초기 부담을 줄여주는 안내자로 작동하길 원한다는 점이 드러났습니다. 추천은 반기지만, 최종 선택과 조정의 권한은 스스로 유지하고 싶어 했습니다.</p><p>또한 다단계 설정 화면을 거치는 방식보다, 대화 안에서 맥락과 추천이 자연스럽게 이어지는 흐름에서 더 높은 이해 용이성과 정서적 친밀감을 보였습니다. 즉 문제는 AI의 유무보다, AI가 경험 안에 배치되는 방식에 있었습니다.</p></section><section><h4>Benchmark Review</h4><p>관련 서비스 벤치마킹에서는 추천 기능이 있더라도 사용자가 다시 세부 설정을 반복해야 하는 경우가 많았습니다. 일정 추천이 제공되더라도 입력과 확인이 분리되어 있으면, 사용자는 “도움을 받았다”기보다 “한 번 더 설정해야 한다”고 느끼기 쉬웠습니다.</p><p>이 프로젝트는 이러한 벤치마킹 결과를 바탕으로, 추천이 제안에 그치지 않고 바로 실행 가능한 구조로 이어져야 한다는 점을 설계 원칙으로 삼았습니다.</p></section><section><h4>Solution Design</h4><p>개선안은 AI 진입 맥락을 명확히 드러내고, 사용자가 계획을 세운 뒤 곧바로 루틴과 일정으로 전환할 수 있도록 흐름을 정리하는 데 초점을 두었습니다. 추천 결과는 그대로 수용하는 방식이 아니라, 요일·시간·알림을 사용자가 가볍게 조정하며 자신의 일정으로 확정할 수 있도록 구성했습니다.</p><p>이를 위해 페이지 전환형 A안과 채팅형 B안을 각각 설계했습니다. A안은 절차를 명확하게 보여주는 장점이 있었고, B안은 대화 안에서 추천과 조정이 이어지며 더 부드러운 경험을 제공할 수 있는 가능성을 보여주었습니다.</p></section><section><h4>A/B Test Results &amp; Interpretation</h4><p>8명을 대상으로 한 비교 테스트에서 B안은 사용 용이성, 기능적 유용성, 정서적 친밀감, 전반적 만족도에서 모두 A안보다 높은 평가를 받았습니다. 특히 사용자는 채팅형 흐름에서 “내 상황을 이해해주는 느낌”과 “설정이 덜 번거로운 느낌”을 더 강하게 언급했습니다.</p><p>반면 A안은 단계가 명확하다는 장점은 있었지만, 각 단계를 개별적으로 확인해야 하는 부담이 남아 있었습니다. 이 결과는 AI 경험에서 중요한 것이 단순한 기능 추가가 아니라, 추천과 조정이 하나의 흐름으로 자연스럽게 이어지는 인터페이스 구조임을 보여줍니다.</p></section><section><h4>Final Conclusion</h4><p>본 프로젝트는 일정 관리 서비스가 단순한 기록 도구를 넘어, 계획 수립과 실행을 연결하는 구조로 확장될 수 있음을 보여줍니다. 중요한 것은 AI가 사용자의 결정을 대체하는 것이 아니라, 행동으로 옮기기 전의 마찰을 줄이고 사용자의 통제감을 유지하도록 돕는 방식입니다.</p><p>To-do mate 개선안은 생성형 AI의 편의성을 일정 관리 경험 안에 통합하면서도, 최종 선택의 주도권은 사용자에게 남겨두는 방향으로 정리됩니다. 이는 AI 기반 생산성 도구가 앞으로 어떤 사용자 경험을 지향해야 하는지를 보여주는 하나의 사례이기도 합니다.</p></section></div>
+</section>
+</article>
+<article class="case" id="heal">
+<div class="case-heading">
+<div class="case-title">
+<span class="case-no">03</span>
+<h3>Hear. Breathe. Heal.</h3>
+<p class="meta">Service Design · 식물 기반 스트레스 완화 앱 · 2025.10</p>
+</div>
+<p class="one-line">기분 점검, 사운드 추천, 식물 성장 구조를 연결해 사용자가 정서 회복의 과정을 부담 없이 기록하고 체감할 수 있는 식물 기반 스트레스 완화 서비스를 제안했습니다.</p>
+</div><div class="summary-grid">
+<div><b>Problem</b><p>정서 회복 서비스는 왜 쉽게 시작되지만 꾸준히 지속되기 어려울까?</p></div>
+<div><b>Research</b><p>스트레스 완화 서비스 사례 조사, 사용자 경험 흐름 분석, 기능 구조 설계</p></div>
+<div><b>Insight</b><p>사용자는 감정을 직접 분석받기보다, 식물처럼 은유적인 매개를 통해 자신의 변화를 확인할 때 더 편안함을 느꼈습니다.</p></div>
+<div><b>Design</b><p>기분 점검, 맞춤 사운드 추천, 식물 성장, 도감, 출석 기반 회복 루틴</p></div>
+</div>
+<section class="project-showcase heal-showcase">
+<div class="project-stage">
+<div class="project-block">
+<div class="project-copy">
+<span>01 / Mood check-in</span>
+<h4>질문 흐름으로 현재 상태를 가볍게 점검하는 진입 구조</h4>
+<p>사용자는 짧은 질문에 답하며 하루의 감정과 스트레스 상태를 돌아봅니다. 직접적인 진단보다 선택형 질문을 통해 부담 없이 현재 상태를 인식하도록 구성했습니다.</p>
+</div>
+<div class="project-visuals heal-checkin-grid">
+<figure class="screen-card"><img alt="Hear. Breathe. Heal onboarding screen" src="assets/heal/onboarding.png"/></figure>
+<figure class="screen-card"><img alt="Mood check question screen 1" src="assets/heal/question-1.png"/></figure>
+<figure class="screen-card"><img alt="Mood check question screen 3" src="assets/heal/question-3.png"/></figure>
+<figure class="screen-card"><img alt="Mood check question screen 5" src="assets/heal/question-5.png"/></figure>
+</div>
+</div>
+<div class="project-block">
+<div class="project-copy">
+<span>02 / Sound recommendation</span>
+<h4>현재 기분에 맞는 사운드를 제안하고 감정 흐름을 보여주는 구조</h4>
+<p>기분 점검 결과는 감정 그래프와 사운드 추천으로 이어집니다. 사용자는 자신의 상태에 맞는 소리를 선택하며 감정 해소와 휴식을 자연스럽게 시작할 수 있습니다.</p>
+</div>
+<div class="project-visuals heal-sound-grid">
+<figure class="screen-card"><img alt="Mood dashboard and sound recommendation home screen" src="assets/heal/mood-home.png"/></figure>
+<figure class="screen-card"><img alt="Top sound list screen" src="assets/heal/top-list.png"/></figure>
+<figure class="screen-card"><img alt="Now playing sound screen" src="assets/heal/now-playing.png"/></figure>
+</div>
+</div>
+<div class="project-block">
+<div class="project-copy">
+<span>03 / Plant growth &amp; collection</span>
+<h4>돌봄과 회복의 반복을 식물 성장과 도감 구조로 시각화</h4>
+<p>출석과 사운드 이용은 식물 성장으로 연결됩니다. 사용자는 보이지 않는 회복의 과정을 식물의 변화와 도감 수집을 통해 시각적으로 확인할 수 있습니다.</p>
+</div>
+<div class="project-visuals heal-growth-grid">
+<figure class="screen-card"><img alt="Plant growth screen level 3" src="assets/heal/plant-lv3.png"/></figure>
+<figure class="screen-card"><img alt="Plant growth screen level 8" src="assets/heal/plant-lv8.png"/></figure>
+<figure class="screen-card"><img alt="Plant growth screen level 16" src="assets/heal/plant-lv16.png"/></figure>
+<figure class="screen-card"><img alt="Plant collection screen" src="assets/heal/collection.png"/></figure>
+</div>
+</div>
+</div>
+</section>
+<section class="detail-flow">
+<div class="detail-index"><span>3</span><b>Hear. Breathe. Heal.</b></div>
+<div class="detail-body"><section><h4>Abstract</h4><p>본 프로젝트는 식물을 매개로 사용자의 스트레스 완화와 정서 회복을 돕는 서비스 디자인입니다. “Hear. Breathe. Heal.”은 자신의 상태를 가볍게 인지하고, 호흡을 고르며, 회복의 과정을 천천히 이어가는 흐름을 담고 있습니다.</p><p>직접적인 감정 분석이나 기록은 오히려 부담이 될 수 있다는 점에 주목해, 사용자가 자신의 상태를 무겁지 않게 확인하고 작은 회복의 변화를 지속적으로 체감할 수 있는 경험을 설계했습니다.</p></section><section><h4>Problem</h4><p>스트레스 완화와 명상 관련 서비스는 많지만, 실제로는 꾸준히 사용하기 어려운 경우가 많습니다. 감정을 직접 기록하거나 상태를 점검하는 행위 자체가 또 하나의 과제처럼 느껴지고, 변화가 즉각적으로 보이지 않기 때문입니다.</p><p>특히 정서 회복을 다루는 서비스가 지나치게 치료적이거나 직접적인 언어를 사용할 경우, 사용자는 오히려 거리감을 느끼기도 합니다. 따라서 사용자가 자신의 상태를 천천히 인식하고 회복을 이어갈 수 있는 장치가 필요했습니다.</p></section><section><h4>Insight</h4><p>리서치 과정에서 사용자는 감정을 정확하게 설명하거나 분석받기보다, 시각적이고 은유적인 방식으로 자신의 변화를 확인할 때 더 편안함을 느낀다는 점이 드러났습니다. 식물은 이러한 정서 변화를 부담 없이 매개할 수 있는 좋은 장치였습니다.</p><p>주요 인사이트는 회복 경험이 강한 개입보다, 일상 안에서 가볍게 반복할 수 있는 구조에서 더 자연스럽게 지속된다는 점이었습니다. 사용자는 “관리받는다”기보다, 스스로를 천천히 돌보고 있다고 느낄 때 더 안정적으로 서비스와 관계를 맺을 수 있습니다.</p></section><section><h4>Service Structure</h4><p>서비스는 기분 점검, 사운드 추천, 식물 성장의 세 단계로 구성했습니다. 사용자는 짧은 질문을 통해 현재의 상태를 확인하고, 그 결과에 맞는 사운드를 추천받습니다. 이후 사운드를 듣고 출석을 이어가는 경험은 식물 성장으로 연결되어, 회복의 과정을 시각적으로 체감할 수 있게 됩니다.</p><p>감정 기록 역시 무거운 서술형 방식이 아니라, 짧고 가벼운 상호작용 안에서 자연스럽게 축적되도록 구성했습니다. 사용자는 자신이 얼마나 꾸준히 돌보고 있는지를 식물의 변화와 도감 구조를 통해 확인할 수 있습니다.</p></section><section><h4>Design Application</h4><p>디자인은 식물을 중심으로 한 은유적 경험에 초점을 두었습니다. 사용자가 매일 앱에 들어와 기분을 확인하고 사운드를 듣는 과정이 하나의 돌봄 루틴처럼 느껴지도록 화면의 톤과 흐름을 정리했습니다. 과도한 진단적 표현보다 편안하고 차분한 인상을 유지하는 것이 중요했습니다.</p><p>또한 식물 성장, 도감, 출석 구조를 연결해 사용자가 회복의 과정을 수치보다 변화의 흐름으로 인식할 수 있도록 했습니다. 이는 정서적 부담을 낮추면서도 지속 사용의 동기를 만들어주는 주요 장치로 작동합니다.</p></section><section><h4>Outcome</h4><p>최종 결과물은 사용자가 자신의 정서 상태를 부담 없이 확인하고, 사운드와 식물 성장 구조를 통해 회복의 과정을 기록하고 체감할 수 있는 식물 기반 스트레스 완화 서비스입니다. 감정을 직접적으로 다루기보다, 일상적인 루틴과 시각적 변화를 통해 정서 회복을 이어가도록 설계했습니다.</p><p>이 프로젝트는 정서적 경험을 다루는 서비스에서 인터페이스가 사용자의 감정 접근 방식을 어떻게 완화할 수 있는지 보여주는 작업입니다. 회복을 강요하지 않으면서도 지속성을 만들어내는 구조를 탐색했다는 점에서 의미가 있습니다.</p></section></div>
+</section>
+</article>
+<article class="case" id="tea">
+<div class="case-heading">
+<div class="case-title">
+<span class="case-no">04</span>
+<h3>A Cup of Pause Tea</h3>
+<p class="meta">Package Design &amp; Illustration · 2025.03</p>
+</div>
+<p class="one-line">차를 마시는 짧은 순간이 일상의 쉼으로 이어지도록, 절제된 식물 일러스트레이션과 친환경 패키지 구조를 바탕으로 브랜드 경험을 설계했습니다.</p>
+</div><div class="summary-grid">
+<div><b>Problem</b><p>차 패키지는 어떻게 제품 정보와 휴식의 정서를 함께 전달할 수 있을까?</p></div>
+<div><b>Research</b><p>브랜드 컨셉 설정, 식물 일러스트레이션, 패키지 구조 및 정보 위계 설계</p></div>
+<div><b>Insight</b><p>차를 마시는 행위는 제품 소비를 넘어, 일상에서 잠시 호흡을 고르는 정서적 경험으로 확장될 수 있습니다.</p></div>
+<div><b>Design</b><p>식물 일러스트레이션, 재생지 기반 패키지, 절제된 색감, 여백 중심 레이아웃</p></div>
+</div>
+<section class="project-showcase tea-showcase">
+<div class="project-block">
+<div class="project-copy">
+<span>01 / Package overview</span>
+<h4>차를 마시는 순간을 쉬어가는 경험으로 담은 패키지</h4>
+<p>브랜드 카드, 패키지 목업, 전개도와 라벨 구성을 함께 배치해 제품 정보와 휴식의 정서가 함께 전달되도록 정리했습니다.</p>
+</div>
+<div class="project-visuals tea-gallery">
+<figure class="media-card tea-feature"><img alt="A Cup of Pause Tea brand card, editorial page, booklet and can mockup" src="assets/tea/tea-1.png"/></figure>
+<figure class="media-card"><img alt="A Cup of Pause Tea package box and collateral mockups" src="assets/tea/tea-2.png"/></figure>
+<figure class="media-card"><img alt="A Cup of Pause Tea package dieline and label design" src="assets/tea/tea-3.png"/></figure>
+</div>
+</div>
+</section>
+<section class="detail-flow">
+<div class="detail-index"><span>4</span><b>A Cup of Pause Tea</b></div>
+<div class="detail-body"><section><h4>Abstract</h4><p>본 프로젝트는 바쁜 일상 속 짧은 휴식의 순간에 주목한 티 패키지 디자인입니다. 차를 단순한 음료가 아니라 잠시 멈추고 호흡을 고르는 경험으로 해석하고, 이를 절제된 식물 일러스트레이션과 차분한 패키지 구조로 풀어냈습니다.</p><p>패키지는 제품을 담는 용기이면서 사용자가 브랜드의 성격을 처음 경험하는 접점이기도 합니다. 따라서 제품의 성분과 효능을 전달하는 데 그치지 않고, 패키지를 보는 순간부터 휴식의 정서가 느껴지도록 구성했습니다.</p></section><section><h4>Problem</h4><p>차를 마시는 경험은 일상 속에서 잠시 멈추는 시간을 만들 수 있지만, 많은 티 패키지는 맛, 성분, 효능과 같은 기능 정보 중심으로 구성되어 있습니다. 그 결과 사용자가 제품을 마주하는 첫 순간에 느낄 수 있는 정서적 휴식은 충분히 드러나지 않습니다.</p><p>이 프로젝트는 기능 정보와 감성적 경험을 분리하지 않고, 사용자가 제품을 집고 바라보고 여는 과정 전체에서 “잠시 쉬어가는 감각”이 전달될 수 있는 패키지 구조를 만드는 데서 출발했습니다.</p></section><section><h4>Insight</h4><p>사용자는 차를 마시는 경험을 단순한 섭취가 아니라 기분 전환과 정서적 휴식의 시간으로 받아들일 수 있습니다. 따라서 패키지는 제품 정보를 설명하는 동시에, 사용자가 제품을 처음 접하는 순간부터 차분하고 안정적인 분위기를 느끼게 해야 합니다.</p><p>주요 인사이트는 패키지가 제품 정보를 담는 표면이 아니라, 브랜드의 정서와 사용 경험을 먼저 예고하는 장치라는 점이었습니다.</p></section><section><h4>Design Approach</h4><p>디자인의 주요 키워드는 “pause”입니다. 절제된 식물 일러스트레이션, 차분한 색감, 넓은 여백을 적용해 사용자가 잠시 멈춰 바라볼 수 있는 정적인 분위기를 만들었습니다. 과도한 장식보다 이미지와 여백이 만들어내는 안정감에 집중했습니다.</p><p>제품 정보는 낮은 밀도로 정리하고, 시각적 흐름은 전면의 정서적 인상에서 후면의 정보 확인으로 자연스럽게 이어지도록 구성했습니다. 친환경 소재 인상을 주는 재생지 질감 역시 브랜드의 태도를 전달하는 요소로 활용했습니다.</p></section><section><h4>Implementation</h4><p>패키지 전면에는 브랜드 정서를 전달하는 식물 일러스트레이션과 제품명을 배치하고, 후면과 측면에는 원재료와 설명을 차분하게 읽을 수 있도록 정보 위계를 정리했습니다. 패키지를 펼쳤을 때에도 이미지와 정보 구조가 자연스럽게 이어지도록 구성했습니다.</p><p>브랜드 카드, 라벨, 박스 전개도, 캔 패키지까지 동일한 시각 언어로 확장해 제품군 전체의 통일감을 유지했습니다. 사용자가 제품을 집고 열어보는 과정에서 시각적 밀도가 부담스럽지 않도록 여백과 정보 양을 함께 조정했습니다.</p></section><section><h4>Outcome</h4><p>최종 결과물은 차를 마시는 행위를 일상 속 휴식의 경험으로 확장한 패키지 디자인입니다. 제품 정보와 감성적 메시지를 함께 전달하며, 사용자가 제품을 마주하는 순간부터 자연스럽게 쉬어가는 분위기를 느낄 수 있도록 했습니다.</p></section></div>
+</section>
+</article>
+<article class="case" id="louis">
+<div class="case-heading">
+<div class="case-title">
+<span class="case-no">05</span>
+<h3>louis poulsen</h3>
+<p class="meta">Website Redesign · 2025.05</p>
+</div>
+<p class="one-line">브랜드의 아이덴티티를 강조한 웹 리디자인</p>
+</div><div class="summary-grid">
+<div><b>Problem</b><p>브랜드의 역사와 감도를 제품 탐색 흐름 안에서 어떻게 경험하게 할 수 있을까?</p></div>
+<div><b>Research</b><p>기존 웹사이트 구조 분석, 브랜드·제품·디자이너 콘텐츠 재구성, 주요 페이지 리디자인</p></div>
+<div><b>Insight</b><p>브랜드의 서사와 제품 정보가 분리되면, 사용자는 조명이 지닌 분위기와 철학보다 상품 목록을 먼저 경험하게 됩니다.</p></div>
+<div><b>Design</b><p>브랜드 서사 강화, 디자이너 콘텐츠 재구성, 제품 탐색 흐름 정리, 주요 페이지 리디자인</p></div>
+</div>
+<section class="project-showcase louis-showcase">
+<div class="project-block">
+<div class="project-copy">
+<span>01 / Website overview</span>
+<h4>브랜드의 아이덴티티를 강조한 웹 리디자인</h4>
+<p>랜딩, About, 디자이너 소개, 제품 목록, 제품 상세 화면을 실제 시안 중심으로 배치해 브랜드 아이덴티티와 탐색 흐름이 이어지도록 정리했습니다.</p>
+</div>
+<div class="project-visuals louis-gallery">
+<figure class="media-card"><img alt="louis poulsen about landing page redesign" src="assets/louis/louis-1.png"/></figure>
+<figure class="media-card"><img alt="louis poulsen designer detail page redesign" src="assets/louis/louis-2.png"/></figure>
+<figure class="media-card"><img alt="louis poulsen mobile landing page redesign" src="assets/louis/louis-3.png"/></figure>
+<figure class="media-card"><img alt="louis poulsen designers listing page redesign" src="assets/louis/louis-4.png"/></figure>
+<figure class="media-card"><img alt="louis poulsen product detail page redesign" src="assets/louis/louis-5.png"/></figure>
+<figure class="media-card"><img alt="louis poulsen products listing page redesign" src="assets/louis/louis-6.png"/></figure>
+</div>
+</div>
+</section>
+<section class="detail-flow">
+<div class="detail-index"><span>5</span><b>louis poulsen</b></div>
+<div class="detail-body"><section><h4>Abstract</h4><p>본 프로젝트는 조명 브랜드 louis poulsen의 웹사이트를 리디자인한 작업입니다. 기존 사이트의 정보 구조와 브랜드 표현 방식을 분석하고, 브랜드 아이덴티티가 제품 탐색 경험 안에서 더 선명하게 드러나도록 화면 구조를 재구성했습니다.</p><p>louis poulsen은 조명의 형태만이 아니라 빛의 분위기, 디자이너의 철학, 브랜드의 역사까지 함께 경험되는 브랜드입니다. 따라서 단순한 상품 목록이 아니라, 브랜드를 이해하고 제품으로 자연스럽게 이동할 수 있는 웹 흐름을 목표로 했습니다.</p></section><section><h4>Problem</h4><p>기존 사이트는 브랜드의 서사와 제품 탐색 기능이 분절되어 있어, 사용자가 브랜드의 감도와 철학을 충분히 경험하기 전에 상품 정보 중심의 흐름으로 진입하게 되는 한계가 있었습니다. 특히 조명 브랜드에서 중요한 “분위기”와 “맥락”이 페이지 간 이동 안에서 충분히 연결되지 않았습니다.</p><p>이로 인해 브랜드를 처음 접하는 사용자는 louis poulsen의 정체성을 깊이 인식하기 어렵고, 제품을 탐색하는 과정에서도 정보 탐색과 브랜드 경험이 따로 분리된 인상을 받을 수 있었습니다.</p></section><section><h4>Design Direction</h4><p>디자인 방향은 브랜드 아이덴티티를 강조하면서도 제품 탐색 흐름을 정돈하는 것이었습니다. 첫째, 랜딩과 About, 디자이너 페이지에서 브랜드 서사를 더 분명히 드러내고, 둘째, 제품 목록과 상세 페이지에서는 비교와 탐색의 효율을 높이는 방향으로 구조를 정리했습니다.</p><p>즉 브랜드를 “읽는 경험”과 제품을 “고르는 경험”이 서로 분리되지 않고 하나의 흐름으로 이어지도록 하는 것이 주요 설계 원칙이었습니다.</p></section><section><h4>Page Structure</h4><p>페이지는 랜딩, About, 디자이너 소개, 제품 목록, 제품 상세를 중심으로 구성했습니다. 랜딩 페이지는 큰 이미지와 간결한 문장을 활용해 louis poulsen의 분위기를 직관적으로 전달하고, About과 디자이너 페이지에서는 역사와 디자인 철학을 시각 자료와 함께 읽히도록 구성했습니다.</p><p>제품 목록에서는 제품의 형태와 색상 차이를 비교하기 쉽도록 카드 구조와 정보 배열을 정리했고, 상세 페이지에서는 제품 이미지, 설명, 관련 콘텐츠가 자연스럽게 이어지도록 구성했습니다. 이를 통해 탐색의 효율과 브랜드 몰입감을 동시에 높이고자 했습니다.</p></section><section><h4>Visual Strategy</h4><p>시각적으로는 브랜드가 지닌 절제된 우아함과 조명의 분위기를 해치지 않는 방향을 유지했습니다. 넓은 여백, 큰 이미지, 명확한 타이포그래피 위계를 활용해 정보 밀도를 낮추고, 제품과 공간 사진이 브랜드의 감도를 충분히 전달하도록 했습니다.</p><p>또한 페이지 간 톤과 리듬을 통일해 브랜드 경험이 단절되지 않도록 했습니다. 사용자는 각 페이지에서 서로 다른 기능을 수행하더라도, 하나의 일관된 브랜드 안에 머무르고 있다고 느낄 수 있어야 했습니다.</p></section><section><h4>Outcome</h4><p>최종 결과물은 브랜드의 아이덴티티를 보다 선명하게 드러내면서도, 제품 탐색 흐름을 정돈한 웹 리디자인입니다. 사용자는 브랜드의 역사와 철학을 이해한 뒤 제품 탐색으로 자연스럽게 이동할 수 있으며, 각 페이지는 정보 탐색과 브랜드 경험을 함께 수행하도록 구성되었습니다.</p><p>이 프로젝트는 브랜드 웹사이트에서 정보 구조와 시각 경험이 어떻게 함께 작동해야 하는지 탐색한 작업입니다. 브랜드의 정체성을 유지하면서도 탐색 효율을 높이는 인터페이스 설계의 중요성을 보여줍니다.</p></section></div>
+</section>
+</article>
+<article class="case" id="apple">
+<div class="case-heading">
+<div class="case-title">
+<span class="case-no">06</span>
+<h3>WHO ATE MY APPLE?</h3>
+<p class="meta">Book Design &amp; Research · 2025.08</p>
+</div>
+<p class="one-line">다크패턴을 독자가 쉽게 이해할 수 있도록 탐정의 수사 이야기로 풀어낸 리서치 기반 북 디자인 프로젝트입니다.</p>
+</div><div class="summary-grid"><div><b>Question</b><p>사용자는 왜 조작적 인터페이스를 스스로의 선택으로 받아들이게 될까?</p></div><div><b>Research</b><p>다크패턴 개념 조사, 유형 분류, 실제 서비스 사례 분석, 탐정 서사 기반 편집 구조 설계</p></div><div><b>Insight</b><p>다크패턴은 낯선 조작보다 익숙한 화면 안의 문구, 기본값, 숨겨진 정보, 선택 구조로 작동합니다.</p></div><div><b>Design</b><p>사과를 먹은 범인을 찾는 수사 이야기, CASE FILE 형식, 강한 색상 대비, 사례별 분석 페이지를 결합한 북 디자인</p></div></div>
+<section class="project-showcase apple-showcase">
+<div class="project-block">
+<div class="project-copy">
+<span>01 / Book overview</span>
+<h4>다크패턴을 탐정의 수사 이야기로 풀어낸 북 디자인</h4>
+<p>다크패턴을 독자들이 흥미를 가지고 이해할 수 있도록, 사과를 먹은 범인을 찾는 탐정의 수사 이야기로 풀어냈습니다. 책은 총 62페이지로 구성했습니다.</p>
+</div>
+<div class="project-visuals apple-gallery">
+<figure class="media-card apple-cover"><img alt="WHO ATE MY APPLE book cover" src="assets/apple/apple-book-cover.png"/></figure>
+<figure class="media-card"><img alt="WHO ATE MY APPLE case file 01 cover page" src="assets/apple/apple-orange-cover.png"/></figure>
+<figure class="media-card"><img alt="WHO ATE MY APPLE case file 01 inner spread" src="assets/apple/apple-orange-inner.png"/></figure>
+<figure class="media-card"><img alt="WHO ATE MY APPLE case file 02 cover page" src="assets/apple/apple-gray-cover.png"/></figure>
+<figure class="media-card"><img alt="WHO ATE MY APPLE case file 02 inner spread" src="assets/apple/apple-gray-inner.png"/></figure>
+<figure class="media-card"><img alt="WHO ATE MY APPLE case file 04 cover page" src="assets/apple/apple-green-cover.png"/></figure>
+<figure class="media-card"><img alt="WHO ATE MY APPLE case file 04 inner spread" src="assets/apple/apple-green-inner.png"/></figure>
+<figure class="media-card"><img alt="WHO ATE MY APPLE case file 05 cover page" src="assets/apple/apple-blue-cover.png"/></figure>
+<figure class="media-card"><img alt="WHO ATE MY APPLE case file 05 inner spread" src="assets/apple/apple-blue-inner.png"/></figure>
+<figure class="media-card"><img alt="WHO ATE MY APPLE case file 07 cover page" src="assets/apple/apple-red-cover.png"/></figure>
+<figure class="media-card"><img alt="WHO ATE MY APPLE case file 07 inner spread" src="assets/apple/apple-red-inner.png"/></figure>
+</div>
+</div>
+</section>
+<section class="detail-flow">
+<div class="detail-index"><span>6</span><b>WHO ATE MY APPLE?</b></div>
+<div class="detail-body"><section><h4>Abstract</h4><p>WHO ATE MY APPLE?은 UX 다크패턴을 주제로 직접 조사하고 작성한 리서치 기반 북 디자인 프로젝트입니다. 사용자의 선택을 왜곡하거나 특정 행동을 유도하는 인터페이스 구조를 설명하기 위해, “사과를 누가 먹었는가”라는 질문에서 출발하는 탐정의 수사 이야기로 전체 흐름을 구성했습니다.</p><p>책은 다크패턴을 유형별로 나열하는 방식보다, 독자가 사건을 따라가며 조작적 설계의 단서를 발견하는 방식에 가깝습니다. 사과를 먹은 범인을 찾는 과정은 사용자가 화면 속에서 어떤 선택을 하도록 유도되는지 추적하는 장치로 작동하며, 이후 마케팅 수신 동의 UI와 다크패턴 연구로 이어지는 문제의식을 형성한 작업입니다.</p></section><section><h4>Problem</h4><p>디지털 서비스에서 사용자는 스스로 선택한다고 느끼지만, 실제 선택은 버튼 배치, 문구, 기본값, 정보 은닉, 반복 요청, 해지 절차와 같은 설계 요소의 영향을 받습니다. 특히 다크패턴은 익숙한 화면 형식 안에 숨어 있어 사용자가 조작을 명확히 인식하기 어렵습니다.</p><p>사용자의 선택을 왜곡하는 주요 방식은 특정 행동 강조, 확인 수치심, 선택지 구성 등으로 나타납니다. 사용자는 선택지가 열려 있다고 느끼지만, 실제로는 특정 방향으로 이동하도록 설계된 흐름 안에 놓이게 됩니다.</p></section><section><h4>Research Focus</h4><p>리서치는 사용자의 판단이 어떤 설계 조건에서 흔들리는지 구체적으로 살피는 방식으로 진행했습니다. 알고리즘 추천, 사이코그래픽 기반 타기팅, 강제 계정 연동, 숨겨진 구독 전략, 기만적 배송 문구 등 여러 디지털 서비스 사례를 수집하고, 각각의 화면이 선택을 어떻게 구조화하는지 분석했습니다.</p><p>각 사례는 사용자가 무엇을 기대했는지, 실제 인터페이스가 어떤 방식으로 다른 행동을 유도했는지, 그 과정에서 어떤 정보가 숨겨지거나 강조되었는지를 중심으로 검토했습니다. 이를 통해 다크패턴을 단순한 시각적 문제보다 선택 환경을 설계하는 방식의 문제로 바라보고자 했습니다.</p></section><section><h4>Storyline</h4><p>책의 서사는 “누가 내 사과를 먹었는가”라는 수사 구조를 따릅니다. 사과는 사용자의 선택권을 은유하며, 탐정은 인터페이스 속 단서를 추적하는 독자의 역할을 대신합니다. 독자는 케이스 파일을 넘기며 범인을 찾듯, 다크패턴이 사용자의 선택을 어떻게 바꾸는지 따라가게 됩니다.</p><p>이러한 스토리라인은 다크패턴이라는 다소 추상적인 개념을 더 쉽게 이해시키기 위한 장치입니다. 사건, 단서, 분석, 결론의 흐름을 통해 독자가 문제 상황에 먼저 몰입한 뒤, 그 안에 숨어 있는 조작 구조를 발견하도록 구성했습니다.</p></section><section><h4>Content Structure</h4><p>책은 개념 소개, 수사 개시, 주요 단서, CASE FILE, 분석과 결론의 흐름으로 구성했습니다. 각 케이스는 하나의 사건처럼 제시하고, 다음 페이지에서 해당 사례에 작동한 다크패턴 유형과 사용자 경험상의 문제를 분석하도록 설계했습니다.</p><p>주요 케이스는 사이코그래픽, 알고리즘 추천, 조용한 포위망, 숨겨진 구독 전략, 기만적 배송 문구 등으로 구성했습니다. 이를 통해 다크패턴이 특정 서비스의 예외적 문제가 아니라, 여러 플랫폼에서 반복적으로 나타나는 구조임을 보여주고자 했습니다.</p></section><section><h4>Design Approach</h4><p>디자인은 탐정의 수사 기록이라는 콘셉트가 명확히 드러나도록 CASE FILE 형식을 적용했습니다. 강한 색상 대비, 취소선, 큰 타이포그래피, 페이지 번호와 단서 표기 등을 활용해 사건 파일을 열람하는 듯한 리듬을 만들었습니다.</p><p>동시에 정보가 시각적 장식에 묻히지 않도록 본문, 사례 설명, 분석 문장, 그래픽 요소의 위계를 분리했습니다. 독자가 흥미롭게 읽으면서도 각 사례의 문제 구조를 빠르게 파악할 수 있도록 편집 밀도와 시각적 강조를 조정했습니다.</p></section><section><h4>Outcome</h4><p>최종 결과물은 다크패턴의 개념과 사례를 탐정의 수사 이야기로 재구성한 북 디자인입니다. 독자는 사과를 먹은 범인을 찾는 흐름을 따라가며, 익숙한 인터페이스 안에서 선택이 어떻게 설계되고 유도되는지 이해할 수 있습니다.</p><p>이 프로젝트는 리서치, 글쓰기, 편집 디자인을 결합해 복잡한 UX 개념을 독자가 흥미롭게 접근할 수 있는 형식으로 전환한 작업입니다. 이후 마케팅 수신 동의 UI 연구로 확장되는 출발점이 되었습니다.</p></section></div>
+</section>
+</article>
+<section class="thesis-section" id="thesis">
+<span class="small-label">논문</span>
+<h2>Research Papers</h2>
+<p class="thesis-lead">마케팅 수신 동의 UI를 중심으로, 사용자의 선택 경험과 인터페이스 설계 요소의 영향을 분석한 두 편의 연구를 현재 집필 중에 있습니다.</p>
+<div class="thesis-list">
+<article class="thesis-card" id="thesis-darkpattern">
+<div class="thesis-card-head">
+<div>
+<span class="thesis-no">01</span>
+<h3>마케팅 수신 동의 UI의 다크패턴 유형과 사용자 선택 경험 연구</h3>
+</div>
+</div>
+<p class="thesis-abstract">마케팅 수신 동의 UI는 사용자가 거부하더라도 서비스 이용에 직접적인 제약이 발생하지 않는 경우가 많습니다. 본 연구는 이러한 비강제적 선택 환경에서도 인터페이스 설계가 사용자의 자율성 인식, 조작 인식, 선택-의도 일치감, 부정 정서와 반발, 예상 선택 반응에 영향을 미칠 수 있는지 검증하는 것을 목표로 합니다.</p>
+<div class="thesis-meta-grid">
+<div><b>Research Context</b><p>기존 다크패턴 연구는 주로 쿠키 배너나 개인정보 동의처럼 서비스 접근성과 연결된 프라이버시 맥락에 집중되어 있었습니다. 본 연구는 실질적 거부가 가능한 마케팅 수신 동의 화면을 대상으로 삼아, 선택권이 주어진 상황에서도 설계가 사용자의 판단 과정에 어떻게 개입하는지 살펴봅니다.</p></div>
+<div><b>Type Development</b><p>iOS 앱스토어 상위권 60개 앱을 조사하고, 마케팅 수신 동의 과정에서 반복적으로 관찰되는 설계 양상을 정리했습니다. 이를 바탕으로 혜택 강조 및 확인 수치심, 시각적 위계 조작, 사전 선택 및 정보 은닉, 반복적 간섭, 사회적 증거, 긴급성 및 희소성 프레이밍의 6가지 유형을 도출했습니다.</p></div>
+<div><b>Experiment Design</b><p>중립 자극 1개와 다크패턴 자극 6개로 구성한 총 7개의 모바일 UI 프로토타입을 제작하고, 동일 참여자가 모든 유형을 평가하는 반복측정 설계를 적용했습니다. 각 자극에 대해 예상 선택 반응, 인지된 자율성, 인지된 조작, 지각된 선택-의도 일치, 부정 정서, 반발, 조작 확인 문항을 측정하도록 구성했습니다.</p></div>
+<div><b>Analysis &amp; Contribution</b><p>중립 자극과 다크패턴 자극의 차이는 대응표본 t-test 또는 반복측정 대비분석으로 확인하고, 유형 간 차이는 반복측정 ANOVA와 사후분석으로 검토합니다. 연구의 중요한 점은 마케팅 수신 동의처럼 선택이 가능해 보이는 화면에서도 시각적 위계, 기본값, 정보 가시성, 감정적 문구, 반복 요청이 사용자 선택 경험을 왜곡할 수 있음을 실증적으로 제시하는 데 있습니다.</p></div>
+</div>
+</article>
+<article class="thesis-card" id="thesis-nfc">
+<div class="thesis-card-head">
+<div>
+<span class="thesis-no">02</span>
+<h3>마케팅 수신 동의 UI 디자인 요소와 인지 욕구 기반 사용자 반응 연구</h3>
+</div>
+</div>
+<p class="thesis-abstract">본 연구는 정교화 가능성 모델(ELM)과 인지 욕구(Need for Cognition)를 바탕으로, 마케팅 수신 동의 UI의 디자인 요소 조합이 사용자 특성에 따라 서로 다른 반응을 유발하는지 분석합니다. 동일한 동의 화면이라도 사용자의 정보 처리 성향에 따라 시각적 단서와 정보 구조가 다르게 작용할 수 있다는 점에 주목했습니다.</p>
+<div class="thesis-meta-grid">
+<div><b>Theoretical Frame</b><p>마케팅 수신 동의 UI를 사용자의 선택권이 상대적으로 보장된 지각된 통제 환경으로 해석하고, ELM의 중심 경로와 주변 경로 개념을 적용했습니다. 인지 욕구가 높은 사용자는 정보의 논리성과 타당성을 중심으로 판단하고, 인지 욕구가 낮은 사용자는 레이아웃이나 시각적 강조와 같은 주변 단서에 더 영향을 받을 수 있다는 관점에서 연구를 구성했습니다.</p></div>
+<div><b>Design Factors</b><p>60개 앱 사례 분석을 통해 마케팅 수신 동의 UI를 구성하는 주요 요소를 시각, 언어, 구조, 선택의 네 가지로 도출했습니다. 각 요소를 이분 수준으로 조작하여 2×2×2×2 완전 요인 설계를 구성하고, 총 16개의 UI 조합을 Figma 프로토타입으로 제작했습니다.</p></div>
+<div><b>Experiment Design</b><p>총 160명의 참여자를 대상으로 설문 기반 실험을 설계했습니다. 응답 피로를 줄이기 위해 각 참여자는 16개 조합 중 무작위로 배정된 4개의 UI만 평가하도록 했으며, 인지 욕구는 단축형 척도(NCS-6)로 측정하여 고인지 욕구 집단과 저인지 욕구 집단으로 구분했습니다.</p></div>
+<div><b>Analysis &amp; Contribution</b><p>반복측정 데이터 구조와 개인차를 함께 고려하기 위해 LMM과 GLMM을 적용하는 분석 구조로 정리했습니다. 자율성, 사용성, 행동 의도 등 사용자 경험 변수를 함께 다루며, 동의 UI의 효과를 단일 디자인 요소가 아니라 사용자 성향과 디자인 요소 조합의 상호작용으로 설명한다는 점에서 의의가 있습니다.</p></div>
+</div>
+</article>
+</div>
+</section>
+<section class="about profile-about" id="about">
+<div class="about-intro">
+<span class="small-label">Profile</span>
+<h2>이지인 Jiin Lee</h2>
+</div>
+<div class="profile-list">
+<div class="profile-group">
+<h3>1. 인적 사항</h3>
+<ul>
+<li>2003.02.27</li>
+<li><a href="mailto:jiinlee.o.88@gmail.com">jiinlee.o.88@gmail.com</a> · <a href="tel:01055750760">010-5575-0760</a></li>
+</ul>
+</div>
+<div class="profile-group">
+<h3>2. 학력</h3>
+<ul>
+<li>2025 - (석사) 국민대학교 일반대학원 커뮤니케이션 디자인학과</li>
+<li>2023 - 2025 (학사) 평생교육진흥원 경영학과</li>
+</ul>
+</div>
+<div class="profile-group">
+<h3>3. 어학</h3>
+<ul>
+<li>토익 800</li>
+</ul>
+</div>
+</div>
+<div class="profile-bio">
+<p>국민대학교 일반대학원에서 커뮤니케이션 디자인학을 전공하며 UI/UX 디자인 및 브랜드 아이덴티티를 중심으로 디자인과 사람 간의 상호작용을 탐구해왔습니다.</p>
+<p>수업과 프로젝트를 통해 사용자 경험을 고려한 인터페이스 설계와 브랜드 아이덴티티 구축을 경험하였으며, 현재는 학과 조교로 근무하며 성실하고 밝은 태도로 학교 생활을 이어가고 있습니다.</p>
+</div>
+<figure class="profile-photo">
+<img alt="Jiin Lee profile photo" src="assets/profile/jiin-headshot-trim.png"/>
+</figure>
+</section>
+<section class="method transcript-section" id="transcript">
+<span class="small-label">성적표</span>
+<h2>Academic Record</h2>
+
+<div class="academic-table-wrap" style="margin-top: 48px;">
+<table class="academic-table">
+<thead>
+<tr>
+<th>학년도</th>
+<th>학기</th>
+<th>이수구분</th>
+<th>교과목명</th>
+<th>학점</th>
+<th>등급</th>
+<th>평점</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>2025</td><td>2학기</td><td>선수과목</td><td>타이포그래피I</td><td>3</td><td>A+</td><td>4.5</td></tr>
+<tr><td>2025</td><td>2학기</td><td>전공</td><td>커뮤니케이션세미나1</td><td>3</td><td>A+</td><td>4.5</td></tr>
+<tr><td>2025</td><td>2학기</td><td>전공</td><td>커뮤니케이션디자인론1</td><td>3</td><td>A+</td><td>4.5</td></tr>
+<tr><td>2025</td><td>2학기</td><td>전공선택</td><td>PBL기반 창업실전전략</td><td>3</td><td>A+</td><td>4.5</td></tr>
+<tr><td>2025</td><td>1학기</td><td>전공</td><td>커뮤니케이션세미나2</td><td>3</td><td>A0</td><td>4.0</td></tr>
+<tr><td>2025</td><td>1학기</td><td>전공</td><td>커뮤니케이션디자인론2</td><td>3</td><td>A+</td><td>4.5</td></tr>
+<tr><td>2025</td><td>1학기</td><td>전공</td><td>미디어스튜디오2</td><td>3</td><td>A0</td><td>4.0</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+</main>
+<footer>
+<span>Jiin Lee Portfolio Draft</span>
+
+</footer>
+<script>
+    const cases = document.querySelectorAll('.case');
+
+    function updateCaseLines() {
+      const viewport = window.innerHeight || document.documentElement.clientHeight;
+
+      cases.forEach((item) => {
+        const rect = item.getBoundingClientRect();
+        const total = rect.height + viewport * 0.6;
+        const current = viewport * 0.72 - rect.top;
+        const progress = Math.max(0, Math.min(1, current / total));
+        item.style.setProperty('--case-progress', `${progress * 100}%`);
+      });
+    }
+
+    updateCaseLines();
+    window.addEventListener('scroll', updateCaseLines, { passive: true });
+    window.addEventListener('resize', updateCaseLines);
+  </script>
+</body>
+</html>
